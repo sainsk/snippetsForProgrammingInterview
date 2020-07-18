@@ -5,9 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Primitives {
-    public static void main(){
+    public static void main(String[] args) {
         System.out.println("2nd code snippet");
         //create an integer Array
+
+        //[1,0,2,3,0,4,5,0]
         int[] arr1 = new int[3];
         arr1[0] = 1;
         arr1[1] = 2;
