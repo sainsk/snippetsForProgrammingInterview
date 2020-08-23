@@ -27,6 +27,6 @@ class BinarySearch{
             array[i] = sc.nextInt();
         }
         Integer findVal = sc.nextInt();
-        System.out.println(binSearch(arr, 0, size -1, findVal));
+        System.out.println(binSearch(array, 0, size -1, findVal));
     }
 }
